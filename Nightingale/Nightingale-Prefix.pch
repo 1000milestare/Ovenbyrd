@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Nightingale' target in the 'Nightingale' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

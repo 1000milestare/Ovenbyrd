@@ -21,7 +21,7 @@
 		6CB64546159554D20051926F /* NGLDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB64545159554D20051926F /* NGLDocumentView.m */; };
 		6CB6454B15955FA40051926F /* Nightingale.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6454A15955FA40051926F /* Nightingale.icns */; };
 		6CB6454D159640960051926F /* cursor_treble_clef.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6454C159640960051926F /* cursor_treble_clef.png */; };
-		6CB64572159671B20051926F /* RhythmDur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CB64570159671B20051926F /* RhythmDur.cpp */; };
+		6CB64572159671B20051926F /* RhythmDur.cp in Sources */ = {isa = PBXBuildFile; fileRef = 6CB64570159671B20051926F /* RhythmDur.cp */; };
 		6CB645751596741E0051926F /* SpaceTime.cp in Sources */ = {isa = PBXBuildFile; fileRef = 6CB645731596741E0051926F /* SpaceTime.cp */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +60,7 @@
 		6CB64545159554D20051926F /* NGLDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGLDocumentView.m; sourceTree = "<group>"; };
 		6CB6454A15955FA40051926F /* Nightingale.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Nightingale.icns; sourceTree = SOURCE_ROOT; };
 		6CB6454C159640960051926F /* cursor_treble_clef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor_treble_clef.png; sourceTree = "<group>"; };
-		6CB64570159671B20051926F /* RhythmDur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RhythmDur.cpp; sourceTree = "<group>"; };
+		6CB64570159671B20051926F /* RhythmDur.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RhythmDur.cp; sourceTree = "<group>"; };
 		6CB64571159671B20051926F /* RhythmDur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RhythmDur.h; sourceTree = "<group>"; };
 		6CB645731596741E0051926F /* SpaceTime.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpaceTime.cp; sourceTree = "<group>"; };
 		6CB645741596741E0051926F /* SpaceTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceTime.h; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		6CB6456F159671760051926F /* CFilesBoth */ = {
 			isa = PBXGroup;
 			children = (
-				6CB64570159671B20051926F /* RhythmDur.cpp */,
+				6CB64570159671B20051926F /* RhythmDur.cp */,
 				6CB64571159671B20051926F /* RhythmDur.h */,
 				6CB645731596741E0051926F /* SpaceTime.cp */,
 				6CB645741596741E0051926F /* SpaceTime.h */,
@@ -329,7 +329,7 @@
 				6CB6451115954F570051926F /* main.m in Sources */,
 				6CB6451815954F570051926F /* NGLDocument.m in Sources */,
 				6CB64546159554D20051926F /* NGLDocumentView.m in Sources */,
-				6CB64572159671B20051926F /* RhythmDur.cpp in Sources */,
+				6CB64572159671B20051926F /* RhythmDur.cp in Sources */,
 				6CB645751596741E0051926F /* SpaceTime.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

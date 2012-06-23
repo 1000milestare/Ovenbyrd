@@ -18,6 +18,9 @@
 		6CB6452715954F580051926F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB6450415954F570051926F /* Cocoa.framework */; };
 		6CB6452F15954F580051926F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6452D15954F580051926F /* InfoPlist.strings */; };
 		6CB6453215954F580051926F /* NightingaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB6453115954F580051926F /* NightingaleTests.m */; };
+		6CB64546159554D20051926F /* NGLDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB64545159554D20051926F /* NGLDocumentView.m */; };
+		6CB6454B15955FA40051926F /* Nightingale.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6454A15955FA40051926F /* Nightingale.icns */; };
+		6CB6454D159640960051926F /* cursor_treble_clef.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6454C159640960051926F /* cursor_treble_clef.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +39,25 @@
 		6CB6450715954F570051926F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		6CB6450815954F570051926F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6CB6450915954F570051926F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6CB6450C15954F570051926F /* Nightingale-Info.plist */ = {isa = PBXFileReference; path = "Nightingale-Info.plist"; sourceTree = "<group>"; };
+		6CB6450C15954F570051926F /* Nightingale-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nightingale-Info.plist"; sourceTree = "<group>"; };
 		6CB6450E15954F570051926F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CB6451015954F570051926F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6CB6451215954F570051926F /* Nightingale-Prefix.pch */ = {isa = PBXFileReference; path = "Nightingale-Prefix.pch"; sourceTree = "<group>"; };
+		6CB6451215954F570051926F /* Nightingale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nightingale-Prefix.pch"; sourceTree = "<group>"; };
 		6CB6451415954F570051926F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		6CB6451615954F570051926F /* NGLDocument.h */ = {isa = PBXFileReference; path = NGLDocument.h; sourceTree = "<group>"; };
+		6CB6451615954F570051926F /* NGLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGLDocument.h; sourceTree = "<group>"; };
 		6CB6451715954F570051926F /* NGLDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGLDocument.m; sourceTree = "<group>"; };
 		6CB6451A15954F570051926F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NGLDocument.xib; sourceTree = "<group>"; };
 		6CB6451D15954F580051926F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6CB6452415954F580051926F /* NightingaleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightingaleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB6452515954F580051926F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		6CB6452C15954F580051926F /* NightingaleTests-Info.plist */ = {isa = PBXFileReference; path = "NightingaleTests-Info.plist"; sourceTree = "<group>"; };
+		6CB6452C15954F580051926F /* NightingaleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NightingaleTests-Info.plist"; sourceTree = "<group>"; };
 		6CB6452E15954F580051926F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6CB6453015954F580051926F /* NightingaleTests.h */ = {isa = PBXFileReference; path = NightingaleTests.h; sourceTree = "<group>"; };
+		6CB6453015954F580051926F /* NightingaleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NightingaleTests.h; sourceTree = "<group>"; };
 		6CB6453115954F580051926F /* NightingaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightingaleTests.m; sourceTree = "<group>"; };
+		6CB64544159554D20051926F /* NGLDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGLDocumentView.h; sourceTree = "<group>"; };
+		6CB64545159554D20051926F /* NGLDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGLDocumentView.m; sourceTree = "<group>"; };
+		6CB6454A15955FA40051926F /* Nightingale.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Nightingale.icns; sourceTree = SOURCE_ROOT; };
+		6CB6454C159640960051926F /* cursor_treble_clef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor_treble_clef.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,7 @@
 				6CB6452A15954F580051926F /* NightingaleTests */,
 				6CB6450315954F570051926F /* Frameworks */,
 				6CB6450115954F570051926F /* Products */,
+				6CB6454715955F280051926F /* Assets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,10 +124,12 @@
 		6CB6450A15954F570051926F /* Nightingale */ = {
 			isa = PBXGroup;
 			children = (
+				6CB6451C15954F580051926F /* MainMenu.xib */,
 				6CB6451615954F570051926F /* NGLDocument.h */,
 				6CB6451715954F570051926F /* NGLDocument.m */,
 				6CB6451915954F570051926F /* NGLDocument.xib */,
-				6CB6451C15954F580051926F /* MainMenu.xib */,
+				6CB64544159554D20051926F /* NGLDocumentView.h */,
+				6CB64545159554D20051926F /* NGLDocumentView.m */,
 				6CB6450B15954F570051926F /* Supporting Files */,
 			);
 			path = Nightingale;
@@ -154,6 +164,16 @@
 				6CB6452D15954F580051926F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CB6454715955F280051926F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6CB6454C159640960051926F /* cursor_treble_clef.png */,
+				6CB6454A15955FA40051926F /* Nightingale.icns */,
+			);
+			name = Assets;
+			path = Nightingale;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,8 @@
 				6CB6451515954F570051926F /* Credits.rtf in Resources */,
 				6CB6451B15954F570051926F /* NGLDocument.xib in Resources */,
 				6CB6451E15954F580051926F /* MainMenu.xib in Resources */,
+				6CB6454B15955FA40051926F /* Nightingale.icns in Resources */,
+				6CB6454D159640960051926F /* cursor_treble_clef.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +290,7 @@
 			files = (
 				6CB6451115954F570051926F /* main.m in Sources */,
 				6CB6451815954F570051926F /* NGLDocument.m in Sources */,
+				6CB64546159554D20051926F /* NGLDocumentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

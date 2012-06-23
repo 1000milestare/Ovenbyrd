@@ -39,10 +39,7 @@
     NSGraphicsContext *nsGraphicsContext = [NSGraphicsContext currentContext];
     CGContextRef c = (CGContextRef) [nsGraphicsContext graphicsPort];
     
-    CGContextBeginPath(c);
-    CGContextSetLineWidth(c,2.0);
-    
-    CGContextSetRGBStrokeColor(c,0.0,0.0,0.0,1.0);
+    CGContextSetRGBStrokeColor(c, 0.0, 0.0, 0.0, 1.0);
 
     CGFloat width = [self bounds].size.width;
     CGFloat spacing = 10.0;
@@ -55,9 +52,9 @@
     {
         CGContextMoveToPoint(c, spacing, i * spacing);
         CGContextAddLineToPoint(c, width - spacing, i * spacing);
-        CGContextDrawPath(c,kCGPathStroke);
+        CGContextDrawPath(c, kCGPathStroke);
     }
-    CGContextStrokePath(c); // do actual stroking
+    CGContextStrokePath(c);
 
 }
 

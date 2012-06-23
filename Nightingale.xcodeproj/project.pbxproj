@@ -476,6 +476,7 @@
 				6CB6453715954F580051926F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CB6453815954F580051926F /* Build configuration list for PBXNativeTarget "NightingaleTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +485,7 @@
 				6CB6453A15954F580051926F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

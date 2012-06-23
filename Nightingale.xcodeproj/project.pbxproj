@@ -21,6 +21,8 @@
 		6CB64546159554D20051926F /* NGLDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB64545159554D20051926F /* NGLDocumentView.m */; };
 		6CB6454B15955FA40051926F /* Nightingale.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6454A15955FA40051926F /* Nightingale.icns */; };
 		6CB6454D159640960051926F /* cursor_treble_clef.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6454C159640960051926F /* cursor_treble_clef.png */; };
+		6CB64572159671B20051926F /* RhythmDur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CB64570159671B20051926F /* RhythmDur.cpp */; };
+		6CB645751596741E0051926F /* SpaceTime.cp in Sources */ = {isa = PBXBuildFile; fileRef = 6CB645731596741E0051926F /* SpaceTime.cp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,12 @@
 		6CB64545159554D20051926F /* NGLDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGLDocumentView.m; sourceTree = "<group>"; };
 		6CB6454A15955FA40051926F /* Nightingale.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Nightingale.icns; sourceTree = SOURCE_ROOT; };
 		6CB6454C159640960051926F /* cursor_treble_clef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor_treble_clef.png; sourceTree = "<group>"; };
+		6CB64570159671B20051926F /* RhythmDur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RhythmDur.cpp; sourceTree = "<group>"; };
+		6CB64571159671B20051926F /* RhythmDur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RhythmDur.h; sourceTree = "<group>"; };
+		6CB645731596741E0051926F /* SpaceTime.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpaceTime.cp; sourceTree = "<group>"; };
+		6CB645741596741E0051926F /* SpaceTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceTime.h; sourceTree = "<group>"; };
+		6CB64579159674F20051926F /* NLimits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLimits.h; sourceTree = "<group>"; };
+		6CB6457A159676070051926F /* defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,9 @@
 		6CB6450A15954F570051926F /* Nightingale */ = {
 			isa = PBXGroup;
 			children = (
+				6CB64578159674CD0051926F /* Precomps */,
+				6CB64576159674670051926F /* Headers */,
+				6CB6456F159671760051926F /* CFilesBoth */,
 				6CB6451C15954F580051926F /* MainMenu.xib */,
 				6CB6451615954F570051926F /* NGLDocument.h */,
 				6CB6451715954F570051926F /* NGLDocument.m */,
@@ -174,6 +185,33 @@
 			);
 			name = Assets;
 			path = Nightingale;
+			sourceTree = "<group>";
+		};
+		6CB6456F159671760051926F /* CFilesBoth */ = {
+			isa = PBXGroup;
+			children = (
+				6CB64570159671B20051926F /* RhythmDur.cpp */,
+				6CB64571159671B20051926F /* RhythmDur.h */,
+				6CB645731596741E0051926F /* SpaceTime.cp */,
+				6CB645741596741E0051926F /* SpaceTime.h */,
+			);
+			name = CFilesBoth;
+			sourceTree = "<group>";
+		};
+		6CB64576159674670051926F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				6CB6457A159676070051926F /* defs.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		6CB64578159674CD0051926F /* Precomps */ = {
+			isa = PBXGroup;
+			children = (
+				6CB64579159674F20051926F /* NLimits.h */,
+			);
+			name = Precomps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +329,8 @@
 				6CB6451115954F570051926F /* main.m in Sources */,
 				6CB6451815954F570051926F /* NGLDocument.m in Sources */,
 				6CB64546159554D20051926F /* NGLDocumentView.m in Sources */,
+				6CB64572159671B20051926F /* RhythmDur.cpp in Sources */,
+				6CB645751596741E0051926F /* SpaceTime.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

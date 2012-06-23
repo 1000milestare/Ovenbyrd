@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import "SpaceTime.h"
 @interface NGLDocument : NSDocument
 
 @end

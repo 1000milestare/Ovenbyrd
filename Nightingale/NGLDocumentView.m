@@ -29,6 +29,10 @@
     NSCursor *cursor = [[NSCursor alloc] initWithImage: [NSImage imageNamed:@"cursor_treble_clef.png"]
                                          hotSpot: NSMakePoint (7, 12)];
     [cursor set];
+    
+    /* call a C++ function and log the result */    
+    NSLog(@"this is the result of a call to MetricStrength: %hd", MetricStrength(10, false, 3, 4, false, 0));
+    
 }
 
 /* simple Quartz 2D drawing example:
@@ -55,7 +59,6 @@
         CGContextDrawPath(c, kCGPathStroke);
     }
     CGContextStrokePath(c);
-
 }
 
 @end

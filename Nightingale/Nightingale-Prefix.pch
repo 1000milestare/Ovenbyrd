@@ -5,3 +5,8 @@
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
 #endif
+
+/* General Nightingale headers */
+#include "NLimits.h"
+//#include "NTypes.h"
+#include "defs.h"

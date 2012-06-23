@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "RhythmDur.h"
 
 @interface NGLDocumentView : NSScrollView
 

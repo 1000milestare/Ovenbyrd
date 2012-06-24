@@ -13,8 +13,7 @@
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    InitTables();
 }
 
 - (void)tearDown
@@ -24,9 +23,11 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testMetricStrength
 {
-    STFail(@"Unit tests are not implemented yet in NightingaleTests");
+    short expected = -8;
+    short result = MetricStrength(10, false, 3, 4, false, 0);
+    STAssertEquals(expected, result, @"Expected %d, but got %d",expected,result);
 }
 
 @end

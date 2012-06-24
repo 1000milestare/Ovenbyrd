@@ -7,7 +7,7 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
-
+#import "RhythmDur.h"
 @interface NightingaleTests : SenTestCase
 
 @end

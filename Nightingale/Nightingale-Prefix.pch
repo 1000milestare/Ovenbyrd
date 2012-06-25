@@ -10,3 +10,6 @@
 #include "NLimits.h"
 //#include "NTypes.h"
 #include "defs.h"
+
+// boolean support for straight C code
+#include "stdbool.h"

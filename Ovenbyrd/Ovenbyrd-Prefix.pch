@@ -1,12 +1,12 @@
 //
-// Prefix header for all source files of the 'Nightingale' target in the 'Nightingale' project
+// Prefix header for all source files of the 'Ovenbyrd' target in the 'Ovenbyrd' project
 //
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
 #endif
 
-/* General Nightingale headers */
+/* General Ovenbyrd headers */
 #include "NLimits.h"
 //#include "NTypes.h"
 #include "defs.h"

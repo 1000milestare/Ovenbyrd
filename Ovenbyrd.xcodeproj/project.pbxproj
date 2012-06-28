@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C29AAF2159CDE3900E8A8CC /* Ovenbyrd.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6C29AAF1159CDE3900E8A8CC /* Ovenbyrd.icns */; };
 		6CB6450515954F570051926F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB6450415954F570051926F /* Cocoa.framework */; };
 		6CB6450F15954F570051926F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6450D15954F570051926F /* InfoPlist.strings */; };
 		6CB6451115954F570051926F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB6451015954F570051926F /* main.m */; };
 		6CB6451515954F570051926F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6451315954F570051926F /* Credits.rtf */; };
-		6CB6451815954F570051926F /* NGLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB6451715954F570051926F /* NGLDocument.m */; };
-		6CB6451B15954F570051926F /* NGLDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6451915954F570051926F /* NGLDocument.xib */; };
+		6CB6451815954F570051926F /* OBDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB6451715954F570051926F /* OBDocument.m */; };
+		6CB6451B15954F570051926F /* OBDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6451915954F570051926F /* OBDocument.xib */; };
 		6CB6451E15954F580051926F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6451C15954F580051926F /* MainMenu.xib */; };
 		6CB6452615954F580051926F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB6452515954F580051926F /* SenTestingKit.framework */; };
 		6CB6452715954F580051926F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB6450415954F570051926F /* Cocoa.framework */; };
 		6CB6452F15954F580051926F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6452D15954F580051926F /* InfoPlist.strings */; };
-		6CB6453215954F580051926F /* NightingaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB6453115954F580051926F /* NightingaleTests.m */; };
-		6CB64546159554D20051926F /* NGLDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB64545159554D20051926F /* NGLDocumentView.m */; };
-		6CB6454B15955FA40051926F /* Nightingale.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6454A15955FA40051926F /* Nightingale.icns */; };
+		6CB6453215954F580051926F /* OvenbyrdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB6453115954F580051926F /* OvenbyrdTests.m */; };
+		6CB64546159554D20051926F /* OBDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB64545159554D20051926F /* OBDocumentView.m */; };
 		6CB6454D159640960051926F /* cursor_treble_clef.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6454C159640960051926F /* cursor_treble_clef.png */; };
 		6CB64572159671B20051926F /* RhythmDur.c in Sources */ = {isa = PBXBuildFile; fileRef = 6CB64570159671B20051926F /* RhythmDur.c */; };
 		6CB645751596741E0051926F /* SpaceTime.c in Sources */ = {isa = PBXBuildFile; fileRef = 6CB645731596741E0051926F /* SpaceTime.c */; };
@@ -31,34 +31,34 @@
 			containerPortal = 6CB644F715954F570051926F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6CB644FF15954F570051926F;
-			remoteInfo = Nightingale;
+			remoteInfo = Ovenbyrd;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6CB6450015954F570051926F /* Nightingale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nightingale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C29AAF1159CDE3900E8A8CC /* Ovenbyrd.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Ovenbyrd.icns; sourceTree = "<group>"; };
+		6CB6450015954F570051926F /* Ovenbyrd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ovenbyrd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB6450415954F570051926F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6CB6450715954F570051926F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		6CB6450815954F570051926F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6CB6450915954F570051926F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6CB6450C15954F570051926F /* Nightingale-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nightingale-Info.plist"; sourceTree = "<group>"; };
+		6CB6450C15954F570051926F /* Ovenbyrd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ovenbyrd-Info.plist"; sourceTree = "<group>"; };
 		6CB6450E15954F570051926F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CB6451015954F570051926F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6CB6451215954F570051926F /* Nightingale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nightingale-Prefix.pch"; sourceTree = "<group>"; };
+		6CB6451215954F570051926F /* Ovenbyrd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ovenbyrd-Prefix.pch"; sourceTree = "<group>"; };
 		6CB6451415954F570051926F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		6CB6451615954F570051926F /* NGLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGLDocument.h; sourceTree = "<group>"; };
-		6CB6451715954F570051926F /* NGLDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGLDocument.m; sourceTree = "<group>"; };
-		6CB6451A15954F570051926F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NGLDocument.xib; sourceTree = "<group>"; };
+		6CB6451615954F570051926F /* OBDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBDocument.h; sourceTree = "<group>"; };
+		6CB6451715954F570051926F /* OBDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBDocument.m; sourceTree = "<group>"; };
+		6CB6451A15954F570051926F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OBDocument.xib; sourceTree = "<group>"; };
 		6CB6451D15954F580051926F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		6CB6452415954F580051926F /* NightingaleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightingaleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB6452415954F580051926F /* OvenbyrdTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OvenbyrdTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB6452515954F580051926F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		6CB6452C15954F580051926F /* NightingaleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NightingaleTests-Info.plist"; sourceTree = "<group>"; };
+		6CB6452C15954F580051926F /* OvenbyrdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OvenbyrdTests-Info.plist"; sourceTree = "<group>"; };
 		6CB6452E15954F580051926F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6CB6453015954F580051926F /* NightingaleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NightingaleTests.h; sourceTree = "<group>"; };
-		6CB6453115954F580051926F /* NightingaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightingaleTests.m; sourceTree = "<group>"; };
-		6CB64544159554D20051926F /* NGLDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGLDocumentView.h; sourceTree = "<group>"; };
-		6CB64545159554D20051926F /* NGLDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGLDocumentView.m; sourceTree = "<group>"; };
-		6CB6454A15955FA40051926F /* Nightingale.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Nightingale.icns; sourceTree = SOURCE_ROOT; };
+		6CB6453015954F580051926F /* OvenbyrdTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OvenbyrdTests.h; sourceTree = "<group>"; };
+		6CB6453115954F580051926F /* OvenbyrdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OvenbyrdTests.m; sourceTree = "<group>"; };
+		6CB64544159554D20051926F /* OBDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDocumentView.h; sourceTree = "<group>"; };
+		6CB64545159554D20051926F /* OBDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDocumentView.m; sourceTree = "<group>"; };
 		6CB6454C159640960051926F /* cursor_treble_clef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor_treble_clef.png; sourceTree = "<group>"; };
 		6CB64570159671B20051926F /* RhythmDur.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RhythmDur.c; sourceTree = "<group>"; };
 		6CB64571159671B20051926F /* RhythmDur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RhythmDur.h; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 		6CB644F515954F570051926F = {
 			isa = PBXGroup;
 			children = (
-				6CB6450A15954F570051926F /* Nightingale */,
-				6CB6452A15954F580051926F /* NightingaleTests */,
+				6CB6450A15954F570051926F /* Ovenbyrd */,
+				6CB6452A15954F580051926F /* OvenbyrdTests */,
 				6CB6450315954F570051926F /* Frameworks */,
 				6CB6450115954F570051926F /* Products */,
 				6CB6454715955F280051926F /* Assets */,
@@ -103,8 +103,8 @@
 		6CB6450115954F570051926F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CB6450015954F570051926F /* Nightingale.app */,
-				6CB6452415954F580051926F /* NightingaleTests.octest */,
+				6CB6450015954F570051926F /* Ovenbyrd.app */,
+				6CB6452415954F580051926F /* OvenbyrdTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,49 +129,49 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		6CB6450A15954F570051926F /* Nightingale */ = {
+		6CB6450A15954F570051926F /* Ovenbyrd */ = {
 			isa = PBXGroup;
 			children = (
 				6CB64578159674CD0051926F /* Precomps */,
 				6CB64576159674670051926F /* Headers */,
 				6CB6456F159671760051926F /* CFilesBoth */,
 				6CB6451C15954F580051926F /* MainMenu.xib */,
-				6CB6451615954F570051926F /* NGLDocument.h */,
-				6CB6451715954F570051926F /* NGLDocument.m */,
-				6CB6451915954F570051926F /* NGLDocument.xib */,
-				6CB64544159554D20051926F /* NGLDocumentView.h */,
-				6CB64545159554D20051926F /* NGLDocumentView.m */,
+				6CB6451615954F570051926F /* OBDocument.h */,
+				6CB6451715954F570051926F /* OBDocument.m */,
+				6CB6451915954F570051926F /* OBDocument.xib */,
+				6CB64544159554D20051926F /* OBDocumentView.h */,
+				6CB64545159554D20051926F /* OBDocumentView.m */,
 				6CB6450B15954F570051926F /* Supporting Files */,
 			);
-			path = Nightingale;
+			path = Ovenbyrd;
 			sourceTree = "<group>";
 		};
 		6CB6450B15954F570051926F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6CB6450C15954F570051926F /* Nightingale-Info.plist */,
+				6CB6450C15954F570051926F /* Ovenbyrd-Info.plist */,
 				6CB6450D15954F570051926F /* InfoPlist.strings */,
 				6CB6451015954F570051926F /* main.m */,
-				6CB6451215954F570051926F /* Nightingale-Prefix.pch */,
+				6CB6451215954F570051926F /* Ovenbyrd-Prefix.pch */,
 				6CB6451315954F570051926F /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6CB6452A15954F580051926F /* NightingaleTests */ = {
+		6CB6452A15954F580051926F /* OvenbyrdTests */ = {
 			isa = PBXGroup;
 			children = (
-				6CB6453015954F580051926F /* NightingaleTests.h */,
-				6CB6453115954F580051926F /* NightingaleTests.m */,
+				6CB6453015954F580051926F /* OvenbyrdTests.h */,
+				6CB6453115954F580051926F /* OvenbyrdTests.m */,
 				6CB6452B15954F580051926F /* Supporting Files */,
 			);
-			path = NightingaleTests;
+			path = OvenbyrdTests;
 			sourceTree = "<group>";
 		};
 		6CB6452B15954F580051926F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6CB6452C15954F580051926F /* NightingaleTests-Info.plist */,
+				6CB6452C15954F580051926F /* OvenbyrdTests-Info.plist */,
 				6CB6452D15954F580051926F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -181,10 +181,10 @@
 			isa = PBXGroup;
 			children = (
 				6CB6454C159640960051926F /* cursor_treble_clef.png */,
-				6CB6454A15955FA40051926F /* Nightingale.icns */,
+				6C29AAF1159CDE3900E8A8CC /* Ovenbyrd.icns */,
 			);
 			name = Assets;
-			path = Nightingale;
+			path = Ovenbyrd;
 			sourceTree = "<group>";
 		};
 		6CB6456F159671760051926F /* CFilesBoth */ = {
@@ -217,9 +217,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6CB644FF15954F570051926F /* Nightingale */ = {
+		6CB644FF15954F570051926F /* Ovenbyrd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CB6453515954F580051926F /* Build configuration list for PBXNativeTarget "Nightingale" */;
+			buildConfigurationList = 6CB6453515954F580051926F /* Build configuration list for PBXNativeTarget "Ovenbyrd" */;
 			buildPhases = (
 				6CB644FC15954F570051926F /* Sources */,
 				6CB644FD15954F570051926F /* Frameworks */,
@@ -229,14 +229,14 @@
 			);
 			dependencies = (
 			);
-			name = Nightingale;
-			productName = Nightingale;
-			productReference = 6CB6450015954F570051926F /* Nightingale.app */;
+			name = Ovenbyrd;
+			productName = Ovenbyrd;
+			productReference = 6CB6450015954F570051926F /* Ovenbyrd.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6CB6452315954F580051926F /* NightingaleTests */ = {
+		6CB6452315954F580051926F /* OvenbyrdTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CB6453815954F580051926F /* Build configuration list for PBXNativeTarget "NightingaleTests" */;
+			buildConfigurationList = 6CB6453815954F580051926F /* Build configuration list for PBXNativeTarget "OvenbyrdTests" */;
 			buildPhases = (
 				6CB6451F15954F580051926F /* Sources */,
 				6CB6452015954F580051926F /* Frameworks */,
@@ -248,9 +248,9 @@
 			dependencies = (
 				6CB6452915954F580051926F /* PBXTargetDependency */,
 			);
-			name = NightingaleTests;
-			productName = NightingaleTests;
-			productReference = 6CB6452415954F580051926F /* NightingaleTests.octest */;
+			name = OvenbyrdTests;
+			productName = OvenbyrdTests;
+			productReference = 6CB6452415954F580051926F /* OvenbyrdTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -259,11 +259,11 @@
 		6CB644F715954F570051926F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = NGL;
+				CLASSPREFIX = OB;
 				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = AMNS;
+				ORGANIZATIONNAME = 1000milestare;
 			};
-			buildConfigurationList = 6CB644FA15954F570051926F /* Build configuration list for PBXProject "Nightingale" */;
+			buildConfigurationList = 6CB644FA15954F570051926F /* Build configuration list for PBXProject "Ovenbyrd" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -275,8 +275,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CB644FF15954F570051926F /* Nightingale */,
-				6CB6452315954F580051926F /* NightingaleTests */,
+				6CB644FF15954F570051926F /* Ovenbyrd */,
+				6CB6452315954F580051926F /* OvenbyrdTests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,10 +288,10 @@
 			files = (
 				6CB6450F15954F570051926F /* InfoPlist.strings in Resources */,
 				6CB6451515954F570051926F /* Credits.rtf in Resources */,
-				6CB6451B15954F570051926F /* NGLDocument.xib in Resources */,
+				6CB6451B15954F570051926F /* OBDocument.xib in Resources */,
 				6CB6451E15954F580051926F /* MainMenu.xib in Resources */,
-				6CB6454B15955FA40051926F /* Nightingale.icns in Resources */,
 				6CB6454D159640960051926F /* cursor_treble_clef.png in Resources */,
+				6C29AAF2159CDE3900E8A8CC /* Ovenbyrd.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,8 +327,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CB6451115954F570051926F /* main.m in Sources */,
-				6CB6451815954F570051926F /* NGLDocument.m in Sources */,
-				6CB64546159554D20051926F /* NGLDocumentView.m in Sources */,
+				6CB6451815954F570051926F /* OBDocument.m in Sources */,
+				6CB64546159554D20051926F /* OBDocumentView.m in Sources */,
 				6CB64572159671B20051926F /* RhythmDur.c in Sources */,
 				6CB645751596741E0051926F /* SpaceTime.c in Sources */,
 			);
@@ -338,7 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CB6453215954F580051926F /* NightingaleTests.m in Sources */,
+				6CB6453215954F580051926F /* OvenbyrdTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +347,7 @@
 /* Begin PBXTargetDependency section */
 		6CB6452915954F580051926F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CB644FF15954F570051926F /* Nightingale */;
+			target = 6CB644FF15954F570051926F /* Ovenbyrd */;
 			targetProxy = 6CB6452815954F580051926F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -369,12 +369,12 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		6CB6451915954F570051926F /* NGLDocument.xib */ = {
+		6CB6451915954F570051926F /* OBDocument.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6CB6451A15954F570051926F /* en */,
 			);
-			name = NGLDocument.xib;
+			name = OBDocument.xib;
 			sourceTree = "<group>";
 		};
 		6CB6451C15954F580051926F /* MainMenu.xib */ = {
@@ -469,10 +469,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Nightingale/Nightingale-Prefix.pch";
-				INFOPLIST_FILE = "Nightingale/Nightingale-Info.plist";
+				GCC_PREFIX_HEADER = "Ovenbyrd/Ovenbyrd-Prefix.pch";
+				INFOPLIST_FILE = "Ovenbyrd/Ovenbyrd-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ovenbyrd;
 				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -482,10 +482,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Nightingale/Nightingale-Prefix.pch";
-				INFOPLIST_FILE = "Nightingale/Nightingale-Info.plist";
+				GCC_PREFIX_HEADER = "Ovenbyrd/Ovenbyrd-Prefix.pch";
+				INFOPLIST_FILE = "Ovenbyrd/Ovenbyrd-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ovenbyrd;
 				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -494,12 +494,12 @@
 		6CB6453915954F580051926F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nightingale.app/Contents/MacOS/Nightingale";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ovenbyrd.app/Contents/MacOS/Ovenbyrd";
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Nightingale/Nightingale-Prefix.pch";
-				INFOPLIST_FILE = "NightingaleTests/NightingaleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Ovenbyrd/Ovenbyrd-Prefix.pch";
+				INFOPLIST_FILE = "OvenbyrdTests/OvenbyrdTests-Info.plist";
+				PRODUCT_NAME = OvenbyrdTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -508,12 +508,12 @@
 		6CB6453A15954F580051926F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nightingale.app/Contents/MacOS/Nightingale";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ovenbyrd.app/Contents/MacOS/Ovenbyrd";
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Nightingale/Nightingale-Prefix.pch";
-				INFOPLIST_FILE = "NightingaleTests/NightingaleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Ovenbyrd/Ovenbyrd-Prefix.pch";
+				INFOPLIST_FILE = "OvenbyrdTests/OvenbyrdTests-Info.plist";
+				PRODUCT_NAME = OvenbyrdTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -522,7 +522,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CB644FA15954F570051926F /* Build configuration list for PBXProject "Nightingale" */ = {
+		6CB644FA15954F570051926F /* Build configuration list for PBXProject "Ovenbyrd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CB6453315954F580051926F /* Debug */,
@@ -531,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CB6453515954F580051926F /* Build configuration list for PBXNativeTarget "Nightingale" */ = {
+		6CB6453515954F580051926F /* Build configuration list for PBXNativeTarget "Ovenbyrd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CB6453615954F580051926F /* Debug */,
@@ -540,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CB6453815954F580051926F /* Build configuration list for PBXNativeTarget "NightingaleTests" */ = {
+		6CB6453815954F580051926F /* Build configuration list for PBXNativeTarget "OvenbyrdTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CB6453915954F580051926F /* Debug */,

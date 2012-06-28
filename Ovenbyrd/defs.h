@@ -1,13 +1,12 @@
 //
 //  defs.h
-//  Nightingale
+//  Ovenbyrd
 //
 //  Created by chirgwin on 6/23/12.
-//  Copyright (c) 2012 AMNS. All rights reserved.
 //
 
-#ifndef Nightingale_defs_h
-#define Nightingale_defs_h
+#ifndef Ovenbyrd_defs_h
+#define Ovenbyrd_defs_h
 
 #define PDURUNIT 15						/* p_dur code for shortest note,i.e., w/dur.code=MAX_L_DUR */
 

@@ -1,13 +1,12 @@
 //
 //  RhythmDur.h
-//  Nightingale
+//  Ovenbyrd
 //
 //  Created by chirgwin on 6/23/12.
-//  Copyright (c) 2012 AMNS. All rights reserved.
 //
 
-#ifndef __Nightingale__RhythmDur__
-#define __Nightingale__RhythmDur__
+#ifndef __Ovenbyrd__RhythmDur__
+#define __Ovenbyrd__RhythmDur__
 #include "SpaceTime.h"
 #define TRUNC(value, mod)	(((value)/(mod))*(mod))
 
@@ -30,4 +29,4 @@ short MetricStrength(
                      short		errMax 						/* Must be >0 */
                      );
 
-#endif /* defined(__Nightingale__RhythmDur__) */
+#endif /* defined(__Ovenbyrd__RhythmDur__) */

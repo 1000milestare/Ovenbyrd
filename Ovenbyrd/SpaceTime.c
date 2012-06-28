@@ -1,9 +1,8 @@
 //
 //  SpaceTime.cp
-//  Nightingale
+//  Ovenbyrd
 //
 //  Created by chirgwin on 6/23/12.
-//  Copyright (c) 2012 AMNS. All rights reserved.
 //
 
 #include "SpaceTime.h"

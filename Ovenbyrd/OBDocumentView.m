@@ -1,14 +1,14 @@
 //
-//  NGLDocumentView.m
-//  Nightingale
+//  OBDocumentView.m
+//  Ovenbyrd
 //
 //  Created by chirgwin on 6/22/12.
-//  Copyright (c) 2012 AMNS. All rights reserved.
+//  Copyright (c) 2012 1000milestare. All rights reserved.
 //
 
-#import "NGLDocumentView.h"
+#import "OBDocumentView.h"
 
-@implementation NGLDocumentView
+@implementation OBDocumentView
 
 - (id)initWithFrame:(NSRect)frame
 {
@@ -22,7 +22,7 @@
 
 /* simple custom cursor example:
    this cursor bitmap and it's hotspot point were harvested directly from
-   the Nightingale.rsrc resource file
+   the old Nightingale.rsrc resource file
  */
 -(void)mouseDown:(NSEvent *)event
 {

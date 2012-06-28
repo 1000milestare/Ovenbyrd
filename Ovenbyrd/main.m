@@ -1,9 +1,9 @@
 //
 //  main.m
-//  Nightingale
+//  Ovenbyrd
 //
 //  Created by chirgwin on 6/22/12.
-//  Copyright (c) 2012 AMNS. All rights reserved.
+//  Copyright (c) 2012 1000milestare. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

@@ -1,14 +1,14 @@
 //
-//  NGLDocument.m
-//  Nightingale
+//  OBDocument.m
+//  Ovenbyrd
 //
 //  Created by chirgwin on 6/22/12.
-//  Copyright (c) 2012 AMNS. All rights reserved.
+//  Copyright (c) 2012 1000milestare. All rights reserved.
 //
 
-#import "NGLDocument.h"
+#import "OBDocument.h"
 
-@implementation NGLDocument
+@implementation OBDocument
 
 - (id)init
 {
@@ -26,7 +26,7 @@
 {
     // Override returning the nib file name of the document
     // If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this method and override -makeWindowControllers instead.
-    return @"NGLDocument";
+    return @"OBDocument";
 }
 
 - (void)windowControllerDidLoadNib:(NSWindowController *)aController

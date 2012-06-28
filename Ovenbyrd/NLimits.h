@@ -1,13 +1,12 @@
 //
 //  NLimits.h
-//  Nightingale
+//  Ovenbyrd
 //
 //  Created by chirgwin on 6/23/12.
-//  Copyright (c) 2012 AMNS. All rights reserved.
 //
 
-#ifndef Nightingale_NLimits_h
-#define Nightingale_NLimits_h
+#ifndef Ovenbyrd_NLimits_h
+#define Ovenbyrd_NLimits_h
 
 /* NLimits.h for Nightingale - rev. for v. 99 */
 
